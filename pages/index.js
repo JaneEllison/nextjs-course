@@ -1,21 +1,9 @@
-import Link from 'next/link';
-
-function HomePage() {
-  return (
-      <div>
-        <h1>Home Page</h1>
-          <ul>
-              <li>
-                  {/*without refresh*/}
-                  {/*replace - deny go back*/}
-                  <Link replace href="/portfolio">Portfolio</Link>
-              </li>
-              <li>
-                  <Link href="/clients">Clients</Link>
-              </li>
-          </ul>
-      </div>
-  )
+function HomePage () {
+    return (
+        <div>
+            <h1>Home</h1>
+        </div>
+    )
 }
 
 export default HomePage;
