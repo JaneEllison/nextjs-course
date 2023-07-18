@@ -1,6 +1,6 @@
-import EventItem from "./EventItem";
-
 import classes from './EventItem.module.css';
+
+import EventItem from './EventItem';
 
 function EventList (props) {
     const { items } = props;
