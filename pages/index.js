@@ -1,21 +1,11 @@
-import Link from 'next/link';
-
-function HomePage() {
+function HomePage(props) {
   return (
-      <div>
-        <h1>Home Page</h1>
-          <ul>
-              <li>
-                  {/*without refresh*/}
-                  {/*replace - deny go back*/}
-                  <Link replace href="/portfolio">Portfolio</Link>
-              </li>
-              <li>
-                  <Link href="/clients">Clients</Link>
-              </li>
-          </ul>
-      </div>
-  )
+    <ul>
+      <li>Product 1</li>
+      <li>Product 2</li>
+      <li>Product 3</li>
+    </ul>
+  );
 }
 
 export default HomePage;
