@@ -1,40 +1,64 @@
 import { useEffect, useState } from 'react';
+import useSWR from 'swr';
+
 const fetchUrl = 'https://nextjs-course-aa8ab-default-rtdb.firebaseio.com/sales.json';
 
-function LastSalesPage() {
-    const [ sales, setSales ] = useState();
-    const [ isLoading, setIsLoading ] = useState(false);
+function LastSalesPage(props) {
+    const [ sales, setSales ] = useState(props.sales);
+    // const [ isLoading, setIsLoading ] = useState(false);
+
+    const fetcher = (url) => fetch(url).then((res) => res.json());
+    const { data, error } = useSWR(
+        fetchUrl,
+        fetcher
+    );
 
     useEffect(() => {
-        setIsLoading(true);
+        if(data) {
+            const transformedData = [];
 
-        fetch(fetchUrl)
-            .then(response => response.json())
-            .then(data => {
-                const transformedData = [];
+            for(const key in data) {
+                transformedData.push({
+                    id: key,
+                    userName: data[key].username,
+                    volume: data[key].volume,
+                })
+            }
 
-                for(const key in data) {
-                    transformedData.push({
-                        id: key,
-                        userName: data[key].username,
-                        volume: data[key].volume,
-                    })
-                }
+            setSales(transformedData);
+        }
+    }, [data])
 
-                setSales(transformedData);
-                setIsLoading(false);
-            });
-    }, []);
+    // useEffect(() => {
+    //     setIsLoading(true);
+    //
+    //     fetch(fetchUrl)
+    //         .then(response => response.json())
+    //         .then(data => {
+    //             const transformedData = [];
+    //
+    //             for(const key in data) {
+    //                 transformedData.push({
+    //                     id: key,
+    //                     userName: data[key].username,
+    //                     volume: data[key].volume,
+    //                 })
+    //             }
+    //
+    //             setSales(transformedData);
+    //             setIsLoading(false);
+    //         });
+    // }, []);
 
-    if(isLoading) {
+    if(error) {
         return (
-            <p>Loading</p>
+            <p>Failed to load</p>
         )
     }
 
-    if(!sales) {
+    if(!sales && !data) {
         return (
-            <p>No data</p>
+            <p>Loading</p>
         )
     }
 
@@ -47,6 +71,27 @@ function LastSalesPage() {
             ))}
         </ul>
     )
+}
+
+export async function getStaticProps() {
+    const response = await fetch(fetchUrl);
+    const data = await response.json();
+
+   const transformedData = [];
+
+   for(const key in data) {
+       transformedData.push({
+           id: key,
+           userName: data[key].username,
+           volume: data[key].volume,
+       })
+   }
+   return {
+       props: {
+           sales: transformedData,
+       },
+       revalidate: 10,
+   }
 }
 
 export default LastSalesPage;
