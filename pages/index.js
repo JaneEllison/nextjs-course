@@ -11,7 +11,7 @@ function HomePage(props) {
 
 export default HomePage;
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
     const featuredEvents = await getFeaturedEvents();
 
     return {
