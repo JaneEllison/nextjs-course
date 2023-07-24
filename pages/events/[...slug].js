@@ -1,21 +1,21 @@
 import { Fragment, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import useSWR from 'swr';
+import Head from 'next/head';
 
-import { getFilteredEvents } from '../../helpers/api-util';
 import EventList from '../../components/events/event-list';
 import ResultsTitle from '../../components/events/results-title';
 import Button from '../../components/ui/button';
 import ErrorAlert from '../../components/ui/error-alert';
 
-function FilteredEventsPage(props) {
+function FilteredEventsPage() {
   const [loadedEvents, setLoadedEvents] = useState();
   const router = useRouter();
 
   const filterData = router.query.slug;
 
   const { data, error } = useSWR(
-    'https://nextjs-course-c81cc-default-rtdb.firebaseio.com/events.json',
+    'https://nextjs-course-aa8ab-default-rtdb.firebaseio.com/events.json',
     (url) => fetch(url).then(res => res.json())
   );
 
@@ -55,6 +55,13 @@ function FilteredEventsPage(props) {
   ) {
     return (
       <Fragment>
+        <Head>
+          <title>Filtered events</title>
+          <meta
+              name="description"
+              content={`All events for ${numMonth}-${numYear}`}
+          />
+        </Head>
         <ErrorAlert>
           <p>Invalid filter. Please adjust your values!</p>
         </ErrorAlert>
