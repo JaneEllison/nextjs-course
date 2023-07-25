@@ -1,6 +1,14 @@
 import fs from 'fs';
 import path from 'path';
 
+export const buildFeedbackPath = () => path.join(process.cwd(), 'data', 'feedback.json');
+
+export const extractFeedback = (filePath) => {
+    const fileData = fs.readFileSync(filePath);
+
+    return JSON.parse(fileData);
+}
+
 function handler(req, res) {
     //execute any server side code, will never be in frontend part
 
@@ -15,9 +23,8 @@ function handler(req, res) {
             text: feedbackText,
         };
 
-        const filePath = path.join(process.cwd(), 'data', 'feedback.json');
-        const fileData = fs.readFileSync(filePath);
-        const data = JSON.parse(fileData);
+        const filePath = buildFeedbackPath();
+        const data = extractFeedback(filePath);
 
         data.push(newFeedback);
         fs.writeFileSync(filePath, JSON.stringify(data));
@@ -27,8 +34,11 @@ function handler(req, res) {
             feedback: newFeedback
         });
     } else {
+        const filePath = buildFeedbackPath();
+        const data = extractFeedback(filePath);
+
         res.status(200).json({
-            message: 'This works',
+            feedback: data,
         });
     }
 }
