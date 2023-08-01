@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb21cf0-5efc-42dd-b206-61d952d5eaf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/posts/PostGrid.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/posts/PostItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/posts/PostItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/posts/PostsGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HomePage/FeaturedPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/homePage/FeaturedPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HomePage/FeaturedPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homePage/FeaturedPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HomePage/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/homePage/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HomePage/Hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homePage/Hero.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Logo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/MainNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MainNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout/MainNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MainNavigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/[...slug]" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/[postId]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/posts/AllPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/posts/AllPosts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/posts/postDetail/PostContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/posts/postDetail/PostContent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/posts/postDetail/PostHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/posts/postDetail/PostHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/[postId]" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/[postId].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +100,7 @@
       <workItem from="1690204169875" duration="74000" />
       <workItem from="1690204346158" duration="30809000" />
       <workItem from="1690446691556" duration="997000" />
-      <workItem from="1690795481751" duration="6164000" />
+      <workItem from="1690795481751" duration="8306000" />
     </task>
     <servers />
   </component>
