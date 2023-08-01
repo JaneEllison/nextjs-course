@@ -1,3 +1,5 @@
+import ReactMarkdown from 'react-markdown';
+
 import styles from './PostContent.module.css';
 import PostHeader from './PostHeader';
 
@@ -14,7 +16,6 @@ function PostContent () {
         slug,
         title,
         image,
-        date,
         content,
     } = DUMMY_POST;
 
@@ -26,7 +27,7 @@ function PostContent () {
                 title={title}
                 image={imagePath}
             />
-            {content}
+            <ReactMarkdown>{content}</ReactMarkdown>
         </article>
     )
 }
