@@ -13,7 +13,7 @@ function ContactForm () {
         const data = {
             email: emailRef.current.value,
             name: nameRef.current.value,
-            message: nameRef.current.value,
+            message: messageRef.current.value,
         }
 
         fetch('/api/contact', {

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb21cf0-5efc-42dd-b206-61d952d5eaf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/api/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/contact/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/contact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +98,7 @@
       <workItem from="1690204169875" duration="74000" />
       <workItem from="1690204346158" duration="30809000" />
       <workItem from="1690446691556" duration="997000" />
-      <workItem from="1690795481751" duration="16055000" />
+      <workItem from="1690795481751" duration="19140000" />
     </task>
     <servers />
   </component>
