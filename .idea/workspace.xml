@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fb21cf0-5efc-42dd-b206-61d952d5eaf9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/posts/PostGrid.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/posts/PostItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/posts/PostItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/posts/PostsGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HomePage/FeaturedPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/homePage/FeaturedPosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HomePage/FeaturedPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homePage/FeaturedPosts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HomePage/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/homePage/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HomePage/Hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homePage/Hero.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Logo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/MainNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MainNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/MainNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MainNavigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/[...slug]" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/[postId]" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SkqTa3UoRjZ53Rpt5s6YG8mj4H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "18.16.1",
+    "javascript.nodejs.core.library.typings.version": "18.16.1",
+    "last_opened_file_path": "/Users/anastasiyasekerich/Documents/personal/NextJsCourse/nextjs-course",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pages/products" />
+      <recent name="$PROJECT_DIR$/components/ui" />
+      <recent name="$PROJECT_DIR$/components/events" />
+      <recent name="$PROJECT_DIR$/components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fb21cf0-5efc-42dd-b206-61d952d5eaf9" name="Changes" comment="" />
+      <created>1689700934975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689700934975</updated>
+      <workItem from="1689700936117" duration="40000" />
+      <workItem from="1689701157082" duration="22816000" />
+      <workItem from="1690204169875" duration="74000" />
+      <workItem from="1690204346158" duration="30809000" />
+      <workItem from="1690446691556" duration="997000" />
+      <workItem from="1690795481751" duration="6164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
