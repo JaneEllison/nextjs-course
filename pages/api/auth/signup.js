@@ -27,7 +27,7 @@ async function handler (req, res) {
 
     const hashedPassword = await hashPassword(password);
 
-    const result = await db.collection('users').insertOne({
+    await db.collection('users').insertOne({
         email,
         password: hashedPassword,
     });
